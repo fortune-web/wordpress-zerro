@@ -1,6 +1,6 @@
 /*
 Theme Name: ZERRO
-Version: 0.1
+Version: 0.2
 Description: Personal theme
 Author: Pavel Kuleshov
 Author URI: https://3err0.ru
@@ -95,4 +95,19 @@ html[dir='rtl'] .icon {
         height: 96px;
         width: 96px;
       }
+}
+
+.footer{
+	background-color: white;
+    border-radius: 2px;
+    box-shadow: 0 4px 6px 1px rgba(50, 50, 50, 0.14);
+    box-sizing: border-box;
+    color: black;
+    line-height: 1.5;
+    margin: 1em auto 0;
+    max-width: 640px;
+    padding: 5px 35px 5px 35px;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-size: 75%;
 }

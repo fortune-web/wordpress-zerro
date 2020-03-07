@@ -15,9 +15,6 @@
   > <a href="https://t.me/ru_3err0" target="_blank">Telegram</a> / <a href="https://github.com/3err0" target="_blank">Github</a> / <a href="https://vk.com/3err0" target="_blank">VK</a>
 </span>
     </p>
-    <p>
-      <strong>© 2020</strong>
-    </p>
     </span>
   </div>
 
