@@ -1,15 +1,13 @@
-<?php get_header();?>
+<?php 
+	get_header();
 
-<?php
     if ( have_posts() ) {
     the_post();
     echo '<div class="content">';
-    the_title();
+    echo "<h1>", the_title(), "</h1>";
     the_content();
     echo '</div>';
-    } else {
-      echo "asd";
     }
-?>
 
-<?php get_footer();?>
+	get_footer();
+?>
