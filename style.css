@@ -107,3 +107,6 @@ html[dir='rtl'] .icon {
     font-family: 'Segoe UI', Tahoma, sans-serif;
     font-size: 75%;
 }
+.right{
+  float: right;
+}
