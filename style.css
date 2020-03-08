@@ -107,7 +107,7 @@ html[dir='rtl'] .icon {
     font-family: 'Segoe UI', Tahoma, sans-serif;
     font-size: 75%;
 }
-.footer a, a:hover{
+.footer a, .footer a:hover{
   color: gray;
   text-decoration: none;
 }
