@@ -4,7 +4,9 @@
       	<?php if(!is_front_page() || !is_home()){
        		echo "<a href='/'>Главная</a> /";
     	}?>
-    	<a href='/archive/'>Архив</a>
+    	<?php if(!is_page('archive')){
+    		echo "<a href='/archive/'>Архив</a>";
+    	}?>
       </div>
 </div>
 </body>
