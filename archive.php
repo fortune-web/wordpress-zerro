@@ -9,11 +9,7 @@ get_header(); ?>
 
 <?php
 if ( have_posts() ) {
-	echo 
-	"<h1>", 
-	the_title(),
-	"<div class='right'><a href='", bloginfo('rss2_url'), "'>RSS</a></div>", 
-	"</h1>";
+	echo "<h1>", the_title(), "</h1>";
 }
 // the query
 $wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish', 'posts_per_page'=>-1)); ?>

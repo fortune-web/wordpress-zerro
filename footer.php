@@ -6,6 +6,8 @@
     	}?>
     	<?php if(!is_page('archive')){
     		echo "<a href='/archive/'>Архив</a>";
+    	} else {
+    		echo "<a href='", bloginfo('rss2_url'), "'>RSS</a>";
     	}?>
       </div>
 </div>
