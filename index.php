@@ -1,7 +1,7 @@
 <?php get_header();?>
 
 <div class="content">
-    <div class="avatar"></div>
+    <div class="icon"></div>
     <span>
 <h1># Pavel Kuleshov</h1>
 <p>
