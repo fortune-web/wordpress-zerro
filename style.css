@@ -97,6 +97,21 @@ html[dir='rtl'] .icon {
       }
 }
 
+.form {
+      background-color: white;
+      border-radius: 2px;
+      box-shadow: 0 4px 6px 1px rgba(50, 50, 50, 0.14);
+      box-sizing: border-box;
+      color: black;
+      line-height: 1.5;
+      margin: 1em auto 0;
+      max-width: 640px;
+      padding: 10px 2px 1px 5px;
+      width: 100%;
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      font-size: 75%;
+    }
+
 .footer{
     box-sizing: border-box;
     color: gray;
