@@ -3,10 +3,8 @@
 
     if ( have_posts() ) {
     the_post();
-    echo '<div class="content">';
-    echo "<h1>", the_title(), "</h1>";
-    the_content();
-    echo '</div>';
+    
+    get_template_part( 'template/post/content', get_post_format() );
     }
 
 	get_footer();
