@@ -11,8 +11,30 @@ get_header(); ?>
 if ( have_posts() ) {
 	echo "<h1>", the_title(), "</h1>";
 }
-// the query
-$wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish', 'posts_per_page'=>-1)); ?>
+
+$params = array(
+	array('post_type'=>'post', 'post_status'=>'publish', 'posts_per_page'=>-1),
+	'tax_query' => array(
+        array(                
+            'taxonomy' => 'post_format',
+            'field' => 'slug',
+            'terms' => array( 
+                'post-format-aside',
+                'post-format-audio',
+                'post-format-chat',
+                'post-format-gallery',
+                'post-format-image',
+                'post-format-link',
+                'post-format-quote',
+                'post-format-status',
+                'post-format-video'
+            ),
+            'operator' => 'NOT IN'
+        )
+    )
+);
+
+$wpb_all_query = new WP_Query($params); ?>
  
 <?php if ( $wpb_all_query->have_posts() ) : ?>
  
