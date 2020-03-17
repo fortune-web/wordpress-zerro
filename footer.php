@@ -1,5 +1,5 @@
 <div class="footer">
-      <strong>© 2020</strong>
+      <strong><a href="https://github.com/3err0/wordpress-zerro" target="_blank">©</a> 2020</strong>
       <div class="right">
       	<?php if(!is_front_page() || !is_home()){
        		echo "<a href='/'>Главная</a> /";
